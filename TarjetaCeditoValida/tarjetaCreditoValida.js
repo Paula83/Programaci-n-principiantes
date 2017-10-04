@@ -11,7 +11,6 @@ var sumaPar = 0;
 	}
 
 	arrayCard = arrayCard.reverse();
-	console.log("arrayCard" + arrayCard);
 
 	for (var i = 1; i < arrayCard.length; i += 2) {
 		if(arrayCard[i] * 2 >= 10 ){
@@ -28,7 +27,6 @@ var sumaPar = 0;
 		arrayPar.push(numeroPar);
 	}
 
-	console.log("arrayPar" + arrayPar);
 	for(i=0; i<arrayCard.length; i+=2){
 	 arrayImpar.push(arrayCard[i]);		
 	 sumaImpar += parseInt(arrayCard[i]);
@@ -38,7 +36,9 @@ var sumaPar = 0;
 	for(i=0; i<arrayPar.length; i++){
 		sumaPar += arrayPar[i];
 	}
-		
+	
+	console.log("arrayCard" + arrayCard);
+	console.log("arrayPar" + arrayPar);
 	console.log("arrayImpar" + arrayImpar);	
 	console.log("Suma Pares "+ " "+sumaPar);
 	console.log("Suma Impares "+ " "+ sumaImpar);
@@ -52,4 +52,4 @@ var sumaPar = 0;
 	}
 }
 
-//4083952015263
+//4083952015263 tc valida
