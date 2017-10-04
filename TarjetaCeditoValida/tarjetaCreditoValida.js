@@ -44,8 +44,10 @@ var sumaPar = 0;
 	console.log("Suma Impares "+ " "+ sumaImpar);
 
 	if( (sumaImpar + sumaPar) % 10 == 0){
+		alert("Su tarjeta es Valida");
 		return true;
 	} else {
+		alert("Su tarjeta no es Valida");
 		return false;
 	}
 }
