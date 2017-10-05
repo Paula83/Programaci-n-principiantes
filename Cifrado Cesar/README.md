@@ -52,8 +52,9 @@ En la de declaración de la variable de tipo string agrego el método fromCharCo
 Nota: El usuario debe ingresar solo letras en mayúsculas para que el programa lo reconozca.   
 
 
-
-
+###Digrama de Flujo
+https://ibb.co/db7E8w
+Nota: Esta incompleto el digrama de flujo.
 
 
 
