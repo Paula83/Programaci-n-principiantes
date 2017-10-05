@@ -1,5 +1,6 @@
  var respuesta = prompt("Ingrese por favor una frase para cifrar:");
  cipher(respuesta);
+ //Comentario adicional: el usuario solo debe ingreasar la frase en mayúsculas.
 
 
 function cipher(palabra){

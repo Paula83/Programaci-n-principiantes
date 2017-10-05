@@ -24,8 +24,7 @@ se difine la estructura aplicar, que en este caso se aplicará la estrctura for.
 luego declaramos una varable que contenga el paramentro incluido en la función, el cual me permitirá mirar la posición de cada letra.
 
 Declaro una variable la cual me contenga el  código ASCII. (var codeAscii)
-
-para obtener el código ASCII de las letras lo podemes hacer por medio de la aplicación del método charCodeAt()
+igual al parametro y nombre del método charCodeAt(i) - la i vine siendo la zona de condición.
 
 
 Nota:
@@ -41,15 +40,15 @@ luego llamamos el estring.charCodeAt(0).
 Eemplo: 
 "A".charCodeAt(0) ---> debe de dar 65*
 
-una vez aplicada y almacenada el código ASCII y el cifrado césar,se declara una variable que agrupe ambos códigos y cifre letra por letra. 
-luego vamos agregando letra por letra a una arrya y luego retornamos.
+una vez aplicada y almacenada el código ASCII y el cifrado césar,se declara una variable. En la de declaración de la variable de tipo string agrego el método fromCharCode. la idea es agrupar ambos códigos es que cifre letra por letra. 
+ 
 
 
  para decipher:
 
  para decifrar se hace exactamente lo mismo, lo que cambia es el cibrado cesar en vez de sumar 33, resta 33 
 
-
+Nota: El usuario debe ingresar solo letras en mayúsculas para que el programa lo reconozca.   
 
 
 
