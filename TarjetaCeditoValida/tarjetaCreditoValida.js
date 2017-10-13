@@ -6,7 +6,7 @@ var arrayImpar= [];
 var sumaImpar = 0;
 var sumaPar = 0;
 
-	for(i=0; i<cardNumber.length; i++){
+	for(i=0; i<cardNumber.length; i++){ 
 		arrayCard.push(cardNumber[i]);
 	}
 
